@@ -1,6 +1,7 @@
 configmap
 fullname
 garnercorp
+google
 kube
 kubectl
 kubernetes
@@ -12,8 +13,10 @@ plugins
 pvc
 sbt
 scalafix
+Sendgrid
 stefanprodan
 tpl
 trunc
 unshallow
 workflows
+yml

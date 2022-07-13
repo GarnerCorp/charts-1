@@ -76,3 +76,5 @@ ignore$
 /values\.yaml$
 ^\.github/actions/spelling-data/
 ^\Q.github/workflows/spelling.yml\E$
+^\Q.secrets.baseline\E$
+secret-scanner\/action@[a-f0-9]+
