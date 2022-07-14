@@ -15,9 +15,12 @@ jobs:
     - uses: actions/checkout@v2.0.0
       with:
         fetch-depth: 2
-    - uses: check-spelling/check-spelling@0.0.16-alpha
-      env:
-        bucket: .github/actions
-        project: spelling-data
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - uses: check-spelling/check-spelling@prerelease
+      with:
+        config: .github/actions/spelling-data
+        experimental_apply_changes_via_bot: 1
+        suppress_push_for_open_pull_request: 1
+        checkout: true
+        spell_check_this: check-spelling/spell-check-this@prerelease
+        post_comment: 0
 
