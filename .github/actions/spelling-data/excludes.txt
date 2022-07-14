@@ -1,3 +1,4 @@
 /values\.yaml$
 \.[^./]*ignore$
 ^\.github/actions/spelling-data/
+^\Q.secrets.baseline\E$
