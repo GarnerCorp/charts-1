@@ -2,3 +2,4 @@
 \.[^./]*ignore$
 ^\.github/actions/spelling-data/
 ^\Q.secrets.baseline\E$
+secret-scanner\/action@[a-f0-9]+
