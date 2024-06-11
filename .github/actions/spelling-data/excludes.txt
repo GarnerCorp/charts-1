@@ -81,4 +81,5 @@ ignore$
 \.zip$
 /values\.yaml$
 ^\.github/actions/spelling-data/
+^\Q.secrets.baseline\E$
 ^\Q.github/workflows/spelling.yml\E$

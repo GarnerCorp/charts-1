@@ -1,6 +1,7 @@
 configmap
 fullname
 garnercorp
+google
 GOPATH
 kube
 kubeconform
@@ -11,7 +12,9 @@ opensource
 pvc
 sbt
 scalafix
+Sendgrid
 tpl
 trunc
 unshallow
 workflows
+yml
