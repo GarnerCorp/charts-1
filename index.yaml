@@ -106,4 +106,25 @@ entries:
     urls:
     - https://github.com/scala-steward-org/charts/releases/download/scala-steward-0.1.2/scala-steward-0.1.2.tgz
     version: 0.1.2
-generated: "2024-04-25T18:38:37.374320912Z"
+  - apiVersion: v2
+    appVersion: 0.30.2
+    created: "2024-06-11T14:51:52.077124529Z"
+    description: A Helm chart for scala-steward
+    digest: eb0970dbe795da8d9498da0c1da4119546f13ba6d29657242be7643022434e7b
+    home: https://github.com/fthomas/scala-steward
+    icon: https://raw.githubusercontent.com/fthomas/scala-steward/master/data/images/scala-steward-logo-circle-0.png
+    keywords:
+    - scala
+    - scala-steward
+    - dependencies
+    maintainers:
+    - email: helm-charts@opensource.garnercorp.com
+      name: Garner
+    name: scala-steward
+    sources:
+    - https://github.com/fthomas/scala-steward
+    type: application
+    urls:
+    - https://github.com/GarnerCorp/scala-steward-org-charts/releases/download/scala-steward-0.0.20240711/scala-steward-0.0.20240711.tgz
+    version: 0.0.20240711
+generated: "2024-06-11T14:51:52.077143816Z"
